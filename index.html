@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="logo">
+                <img src="./images/odin-logo.png" alt="Odin Logo">
+                <p>Odin</p>
+            </div>
+
+            <div class="footer-text">
+                <p>Photo by <u>Halie West</u> on <u>Unsplash</u></p>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="description">
+                <p>
+                    This is not a real online service! You know you need something <br />
+                    like this in your life to help you realize your deepest dreams. <br />
+                    Sign up <em>now</em> to get started
+                </p>
+    
+                <p>
+                    You <em>know</em> you want to.
+                </p>
+            </div>
+
+            <div class="form-section">
+                <h1>Let's do this!</h1>
+                <form action="post">
+                    <fieldset class="names">
+                        <div class="label-input">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" placeholder="">
+                        </div>
+
+                        <div class="label-input">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" placeholder="">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="email-phone">
+                        <div class="label-input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" placeholder="">
+                        </div>
+
+                        <div class="label-input">
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="text" placeholder="">
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="passwords">
+                        <div class="label-input">
+                            <label for="password" id="password">PASSWORD</label>
+                            <input type="password" placeholder="" required minlength="1">
+                        </div>
+    
+                        <div class="label-input">
+                            <label for="confirm-password" id="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" placeholder="" required>
+                            <input type="checkbox" id="pwMatch">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+    
+            <div class="footer">
+                <button type="submit" id="submit-button"> Create Account </button>
+                <p>Already have an account? <a href="./">Log In</a></p>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
